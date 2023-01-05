@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       #box_matter{
+        width: 50%;
+        height: 250px;
+        background: red;
+        position: absolute;
+       } 
+
+       #box{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+       }
+
+
+        #sowrov{
+        font-size: 20px;
+        color: blue;
+        background: cyan;
+        text-align: center;
+        }
+        
+        #box_matter img{
+        width: 100%;
+        }
+        button{
+        padding: 10px;
+        width: 100px;
+        background: red;
+        color: antiquewhite;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <div id="sowrov"></div>
+
+    <script>
+        setTimeout(kalamia, 3000);
+        function kalamia(){
+         document.getElementById("sowrov").innerHTML = `<div id="box">
+        <div id="box_matter">
+            <img src="https://play-lh.googleusercontent.com/5HEkLqjWS6vJibQ9KIMRGHLwnCyTrcg2mNBH_i-VuOy6bc98EtR091teMYO8HKGcRz47" alt="ad">
+            <button>close</button>
+        </div>
+    </div>`
+            
+        }
+        
+
+    </script>
+
+    
+    <div id="demo1">   </div>
+    <div id="nameTypeId"></div>
+
+    <br>
+    <div id="demo2"></div>
+    <div id="dmeo2type"></div>
+    <br>
+
+    <div id="demo3"></div>
+    <div id="tumi"></div>
+    <br>
+
+    <div id="demo4"></div>
+    <div id="demo5"></div>
+    <div id="demo6"></div>
+    <div id="demo7"></div>
+    <div id="demo8"></div>
+    <div id="demo9"></div>
+    <div id="demo10"></div>
+    <div id="worldtype"></div>
+    <div id="hasan"></div>
+    <br>
+    <div id="list"></div>
+    <div id="listType"></div>
+    <div id="mmmm"></div>
+    <div id="nnnn"></div>
+
+    <div id="miah"></div>
+
+
+    <script>
+        let name = "Mahadi Hasan";
+        let  nameType =  typeof(name);
+        document.getElementById("nameTypeId").innerHTML = nameType;
+
+        let name2 = 120;
+       let tkalamea = typeof(name2);
+       document.getElementById("dmeo2type").innerHTML = tkalamea;
+
+
+        let name3 = true;
+        let ami = typeof(name3);
+        document.getElementById("tumi").innerHTML = ami;
+
+
+        let name4 = "Akram Kha";
+
+        let world = {
+            country: 230,
+            subcontitent: 8,
+            color: "green"
+        }
+        let mahadi = typeof(world);
+
+        let name5 = "Shajjad Miah";
+        let name6 = "Adnan Miah";
+        let name7 = "Zihadul";
+        let name8 = "Rohan Miah";
+        let name9 = "Raihan Miah";
+        let name10 = "Shobo Miah";
+
+        let students = ["Mahadi, Hasan, Sowron, Tanvir, Sajjad Miah, Akram, Shakil, Mojahid, Shajid, Milon Mia"];
+
+        let iteam = typeof(students);
+
+        let dhaka = "";
+        let city = typeof(dhaka);
+        
+        let kidomo;
+       let kilikhmoType = typeof(kidomo);
+        // let name = "S A Faroque";
+
+        document.getElementById("list").innerHTML = students;
+
+       document.getElementById("demo1").innerHTML = name;
+
+       document.getElementById("demo2").innerHTML = name2;
+
+       document.getElementById("demo3").innerHTML = name3;
+
+       document.getElementById("demo4").innerHTML = name4;
+
+       document.getElementById("demo5").innerHTML = name5;
+
+       document.getElementById("demo6").innerHTML = name6;
+
+       document.getElementById("demo7").innerHTML = name7;
+
+       document.getElementById("demo8").innerHTML = name8;
+
+       document.getElementById("demo9").innerHTML = name9;
+
+       document.getElementById("demo10").innerHTML = name10;
+
+       document.getElementById("worldtype").innerHTML = world;
+
+       document.getElementById("hasan").innerHTML = mahadi;
+
+       document.getElementById("listType").innerHTML = iteam;
+       
+       document.getElementById("mmmm").innerHTML = dhaka;
+
+       document.getElementById("nnnn").innerHTML = city;
+       
+       document.getElementById("miah").innerHTML = kilikhmoType;
+
+    </script>
+</body>
+</html>
